@@ -5,7 +5,7 @@
 /* Custom CSS Template Created at AutomateYourDJEP.com */
 /* Created for Kevin Sage - djsage@xtremedjforyou.com */
 * {
-	outline:none;	
+	outline:none;
 }
 html {
 	overflow-y: scroll;
@@ -110,7 +110,7 @@ body.djep-body {
 	height: auto !important;
 	height: 100%;
 	min-height: 100%;
-	color: #525252;
+	color: #000000;
 	background-repeat: repeat-x;
 	background-position: top left;
 	font-family: 'Lato:bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -222,12 +222,7 @@ h1.djep-h1 {
 	color: #2C7396;
 	margin: 21px 0; /* IMPORTANT - hack to fix IE7 */
 }
-h2.djep-h2 {
-font-size: 24px;
-color: #2C7396;
-margin: 21px 0 10px;
-font-weight: 300;
-}
+h2.djep-h2 {font-size: 24px;color: #2C7396;margin: 21px 0 10px;font-weight: 300;}
 #page_planmyevent h2.djep-h2, .payment_page_div h2.djep-h2, form[name="ep_form"] h2 {
 	margin-bottom: 30px !important;
 }
@@ -1184,11 +1179,10 @@ djep-SubmitHide {
 	font-family: 'lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 12;
 	font-weight: 500;
-	padding: 7px 23px;
+	/* padding: 7px 23px; */
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.5s ease;
-	
 }
 .djep-planeventbutton:hover, .djep-eventdetailsbutton:hover, .djep-paymentbutton:hover {
 	background: #ffffff;
